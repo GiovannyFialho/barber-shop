@@ -1,0 +1,45 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "no-use-before-define": "off",
+        "react-hooks/exhaustive-deps": "warn",
+        "@typescript-eslint/no-use-before-define": ["error"],
+        "react/prop-types": "off",
+        "@typescript-eslint/explicit-function-return-type": [
+            "error",
+            {
+                "allowExpressions": true
+            }
+        ],
+        "indent": "off",
+        "camelcase": "off",
+        "semi": "off",
+        "array-callback-return": "off",
+        "no-unused-vars": "off",
+        "no-undef": "off",
+        "comma-dangle": "off",
+        "multiline-ternary": "off",
+        "object-curly-spacing": "off",
+        "keyword-spacing": "off"
+    }
+}

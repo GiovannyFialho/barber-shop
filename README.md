@@ -1,0 +1,4 @@
+# Barber Shop
+
+## Instalação
+```yarn```
