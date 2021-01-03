@@ -1,4 +1,7 @@
 # Barber Shop
 
-## Instalação
+## Instalação:
 ```yarn```
+
+## Execução
+```yarn start```
