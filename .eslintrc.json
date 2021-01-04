@@ -40,6 +40,8 @@
         "comma-dangle": "off",
         "multiline-ternary": "off",
         "object-curly-spacing": "off",
-        "keyword-spacing": "off"
+        "keyword-spacing": "off",
+        "space-in-parens": "off",
+        "space-before-function-paren": "off"
     }
 }
